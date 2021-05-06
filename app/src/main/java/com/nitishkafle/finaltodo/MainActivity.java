@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private File getDataFile(){
-        return new File(getDataFile(), "data.txt");
+        return new File((File) null, "data.txt");
     }
 
     private void loadItems() {
